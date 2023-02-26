@@ -1,0 +1,105 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 20%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  /* My own code starts here */
+
+  // .hero {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  // }
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-bottom: 5rem;
+
+        h4 {
+        font-size: 24px;
+      }
+  }
+
+  .nav-bar {
+
+        ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+            a {
+              text-decoration: none;
+              font-size: 18px;
+              color: #e5e7eb;
+            }
+    }
+  }
+
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    gap: 3rem;
+    padding-bottom: 5rem;
+
+      h1 {
+        font-size: 48px;
+        font-weight: bolder;
+        color: #f9faf8;
+      }
+      
+      p {
+        font-size: 18px;
+        color: #e5e7eb;
+      }
+  }
+
+  .left-content, .right-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right-content {
+
+    img {
+      min-width: 100%;
+
+    }
+
+  }
