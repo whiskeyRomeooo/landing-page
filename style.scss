@@ -104,3 +104,34 @@
     }
 
   }
+
+.info-container {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 5rem;
+
+    img {
+      min-width: 20vh;
+    }
+}
+
+.sec-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  padding-top: 5rem;
+}
+
+.third-content {
+  background-color: #e5e7eb;
+}
+
+.quote {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}

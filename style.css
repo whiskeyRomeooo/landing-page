@@ -90,4 +90,34 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .right-content img {
   min-width: 100%;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 5rem;
+}
+.info-container img {
+  min-width: 20vh;
+}
+
+.sec-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  padding-top: 5rem;
+}
+
+.third-content {
+  background-color: #e5e7eb;
+}
+
+.quote {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
 }/*# sourceMappingURL=style.css.map */
